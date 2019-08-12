@@ -5,4 +5,4 @@
 
 models:
   DraftList:
-    model: github.com/atherssss/graphql-players/graphql-players.DraftList
+    model: github.com/atherssss/graphql-players.DraftList

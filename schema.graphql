@@ -6,34 +6,34 @@ type DraftList {
   pick: Int!
 }
 
-type Team {
-  id: ID!
-  team: String!
-  bye: Int!
-  abbr: String!
-}
+# type Team {
+#   id: ID!
+#   team_name: String!
+#   bye: Int!
+#   abbr: String!
+# }
 
-type UDKRankPlayer {
-  id: ID!
-  name: String!
-  rank: String!
-  projected_points: Float!
-  risk: Float!
-  adp: Float!
-  tier: Int!
-  notes: String!
-}
+# type UDKRankPlayer {
+#   id: ID!
+#   name: String!
+#   rank: String!
+#   projected_points: Float!
+#   risk: Float!
+#   adp: Float!
+#   tier: Int!
+#   notes: String!
+# }
 
-type FPPlayerADP {
-  rank: Int!
-  player: String!
-  team: Team!
-  pos_rank: String!
-  yahoo_adp: Int!
-  fcc: Int!
-  fantrax: Int!
-  avg_adp: Int!
-}
+# type FPPlayerADP {
+#   rank: Int!
+#   player: String!
+#   team: Team!
+#   pos_rank: String!
+#   yahoo_adp: Int!
+#   fcc: Int!
+#   fantrax: Int!
+#   avg_adp: Int!
+# }
 
 type Query {
   draftLists: [DraftList!]!
