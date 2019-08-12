@@ -1,0 +1,8 @@
+# .gqlgen.yml example
+#
+# Refer to https://gqlgen.com/config/
+# for detailed .gqlgen.yml documentation.
+
+models:
+  DraftList:
+    model: github.com/atherssss/graphql-players/graphql-players.DraftList
